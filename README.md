@@ -55,13 +55,18 @@ A secure and user-friendly password manager with encryption and authentication, 
 
 
 
-![Main Menu](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image.png?raw=true))
+![Main Menu](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image.png?raw=true)
 
 
-![create password](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image%20(2).png?raw=true))
 
 
-![view](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image%20(3).png?raw=true))
+![create password](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image%20(2).png?raw=true)
+
+
+
+
+
+![view](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image%20(3).png?raw=true)
 
 --
 
