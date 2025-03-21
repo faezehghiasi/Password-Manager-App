@@ -1,5 +1,5 @@
 #  Password Manager (Python + Tkinter + SQLite)
-
+This project is a Python application that generates secure random passwords, encrypts them, and stores them for your future use.
 A secure and user-friendly password manager with encryption and authentication, built using Python.
 
 ---
