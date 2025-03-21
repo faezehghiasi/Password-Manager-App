@@ -69,22 +69,12 @@ A secure and user-friendly password manager with encryption and authentication, 
 
 ![view](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image%20(3).png?raw=true)
 
---
+
 
 ##  Security Notes
 
 - **Encryption Key** (`FERNET_KEY`) should be stored securely (not hardcoded).
 - **Credentials** are hashed before storage, but a database-based approach is better.
 - **Login Attempts** are tracked in memory and reset upon restart.
-
----
-
-##  Future Improvements
-
-- Master Password / Biometric Unlock
-- Search & Filter Saved Passwords
-- Export/Import Encrypted Backups
-- Cloud Sync Support
-- Dark Mode / Custom Themes
 
 
