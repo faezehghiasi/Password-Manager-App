@@ -1,4 +1,3 @@
-# password_manager.py
 import tkinter as tk
 from tkinter import ttk, messagebox
 import db_manager
@@ -39,7 +38,6 @@ def open_password_manager(back_target):
                           background="#ADD8E6")
     lbl_title.pack(pady=10)
 
-    # Treeview را بیرون از container هم می‌توان ساخت، ولی برای هماهنگی با استایل، اینجا ساختیم
     tree = ttk.Treeview(container, columns=("Website", "Username", "Password"), show="headings")
     tree.heading("Website", text="Website")
     tree.heading("Username", text="Username")

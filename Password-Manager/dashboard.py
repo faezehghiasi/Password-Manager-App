@@ -1,8 +1,7 @@
-# dashboard.py
 import tkinter as tk
 from tkinter import ttk
 from password_manager import open_password_manager, add_new_password
-from navigation import open_welcome
+import main
 
 def create_style():
     style = ttk.Style()
@@ -55,7 +54,7 @@ def open_dashboard():
                             text="← Logout",
                             style='RoundedButton.TButton',
                             width=25,
-                            command=lambda: [dashboard.destroy(), open_welcome()])
+                            command=lambda: [dashboard.destroy(), main.open_welcome()])
     btn_logout.pack(pady=10)
 
     dashboard.mainloop()
