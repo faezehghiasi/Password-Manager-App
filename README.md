@@ -1,10 +1,11 @@
-# 🔐 Password Manager (Python + Tkinter + SQLite)
+#  Password Manager (Python + Tkinter + SQLite)
+This project is a Python application that generates secure random passwords, encrypts them, and stores them for your future use.
 
 A secure and user-friendly password manager with encryption and authentication, built using Python.
 
 ---
 
-## ✨ Features
+##  Features
 
 - **User Authentication** (Registration, Login, PBKDF2 Hashing, Brute-force Protection)
 - **Password Management** (Generate, Encrypt, Store, View, Copy to Clipboard)
@@ -12,7 +13,7 @@ A secure and user-friendly password manager with encryption and authentication, 
 
 ---
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 - Python 3.9 or newer
@@ -23,7 +24,7 @@ A secure and user-friendly password manager with encryption and authentication, 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/faezehghiasi/Password-Manager-App.git
-   cd Password-Manager-App/password-manager
+   cd Password-Manager-App/Password-Manager
    ```
 
 2. **Create a virtual environment** (recommended)
@@ -49,22 +50,31 @@ A secure and user-friendly password manager with encryption and authentication, 
    ```
 
 ---
+## Screenshots 
 
 
-## ⚠️ Security Notes
+
+
+
+![Main Menu](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image.png?raw=true)
+
+
+
+
+![create password](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image%20(2).png?raw=true)
+
+
+
+
+
+![view](https://github.com/faezehghiasi/Password-Manager-App/blob/main/images/Pasted%20image%20(3).png?raw=true)
+
+
+
+##  Security Notes
 
 - **Encryption Key** (`FERNET_KEY`) should be stored securely (not hardcoded).
 - **Credentials** are hashed before storage, but a database-based approach is better.
 - **Login Attempts** are tracked in memory and reset upon restart.
-
----
-
-## ✅ Future Improvements
-
-- Master Password / Biometric Unlock
-- Search & Filter Saved Passwords
-- Export/Import Encrypted Backups
-- Cloud Sync Support
-- Dark Mode / Custom Themes
 
 
