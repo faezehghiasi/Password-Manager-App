@@ -1,0 +1,9 @@
+venv/
+*.db
+*.json
+__pycache__/
+*.py[cod]
+*.pyo
+
+
+
